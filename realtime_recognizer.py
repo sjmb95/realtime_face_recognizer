@@ -18,7 +18,8 @@ def face_confidence(face_distance, face_match_threshold=0.6):
 
 
 
-# load all known faces
+# load all known faces from faces folder
+# make sure to create folder 'faces/' and  store images of people used for recognition
 def encode_faces():
 
     for image in os.listdir('faces'):
